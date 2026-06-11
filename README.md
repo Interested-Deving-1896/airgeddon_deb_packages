@@ -1,27 +1,75 @@
-# airgeddon deb packages
+[update-readmes]   Mode: rewrite — migrating to template structure...
+# airgeddon_deb_packages
 
-Useful related to airgeddon packages for Debian based Linux distributions.
+[![Built with Ona](https://ona.com/build-with-ona.svg)](https://app.ona.com/#https://github.com/Interested-Deving-1896/airgeddon_deb_packages)
 
-Here is a collection of deb packages to be installed using `dpkg -i <package>` command.
+<!-- AI:start:what-it-does -->
+_Description pending._
+<!-- AI:end:what-it-does -->
 
-__Missing packages for archs__
+## Architecture
 
- - i386 <- Package collection is complete at this moment.
+<!-- AI:start:architecture -->
+_Architecture documentation pending._
+<!-- AI:end:architecture -->
 
- - amd64 <- Package collection is complete at this moment.
+## Install
 
- - armhf (32bits Raspbian for Raspberry pi) <- Package collection is complete at this moment.
+<!-- Add installation instructions here. This section is yours — the AI will not modify it. -->
 
- - armel (32bits Kali/Parrot for Raspberry pi) <- Missing one package: _hashcat_.
+```bash
+git clone https://github.com/Interested-Deving-1896/airgeddon_deb_packages.git
+cd airgeddon_deb_packages
+```
 
- - arm64 (Any 64bits Linux for Raspberry pi) <- Package collection is complete at this moment.
+## Usage
 
-__Some useful kernel packages__
+<!-- Add usage examples here. This section is yours — the AI will not modify it. -->
 
-Since it is known that from kernel version 6.2 onwards, Mediatek chipsets have issues using their VIF (Virtual Interface Functionality) feature, some versions of the 6.1 kernel can be found in the `useful_kernels` folder to work flawlessly with these Mediatek chipsets. Hopefully, the kernel will be fixed soon, as documented in the kernel.org bug tracker. Meanwhile, here are the deb files of versions that work correctly.
+## Configuration
 
-____
+<!-- Document configuration options here. This section is yours — the AI will not modify it. -->
 
-__This is completely unofficial, so don't ask airgeddon staff about it. Don't request anything to be included and don't open any issue regarding this__. Just contact us if you have one of the missing deb packages.
+## CI
 
-How to create a deb package from an installed tool? pretty easy. Install dpkg-repack tool by `apt install dpkg-repack`, then create deb file from an installed package of your choice, for example: `dpkg-repack aircrack-ng`. So, if you have installed one of the missing packages for any of the architectures, please create it and contact us to try to complete the repo.
+<!-- AI:start:ci -->
+_CI documentation pending._
+<!-- AI:end:ci -->
+
+## Mirror chain
+
+<!-- AI:start:mirror-chain -->
+This repo is maintained in [`Interested-Deving-1896/airgeddon_deb_packages`](https://github.com/Interested-Deving-1896/airgeddon_deb_packages) and mirrored through:
+
+```
+Interested-Deving-1896/airgeddon_deb_packages  ──►  OpenOS-Project-OSP/airgeddon_deb_packages  ──►  OpenOS-Project-Ecosystem-OOC/airgeddon_deb_packages
+```
+
+Changes flow downstream automatically via the hourly mirror chain in
+[`fork-sync-all`](https://github.com/Interested-Deving-1896/fork-sync-all).
+Direct commits to OSP or OOC are detected and opened as PRs back to `Interested-Deving-1896`.
+<!-- AI:end:mirror-chain -->
+
+## Contributors
+
+<!-- AI:start:contributors -->
+_Contributors pending._
+<!-- AI:end:contributors -->
+
+## Origins
+
+<!-- AI:start:origins -->
+_Original project — no upstream fork._
+<!-- AI:end:origins -->
+
+## Resources
+
+<!-- AI:start:resources -->
+_No additional resource files found._
+<!-- AI:end:resources -->
+
+## License
+
+<!-- AI:start:license -->
+<!-- License not detected — add a LICENSE file to this repo. -->
+<!-- AI:end:license -->
